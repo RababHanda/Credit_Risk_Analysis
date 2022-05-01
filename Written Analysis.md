@@ -22,6 +22,7 @@ Results for each specific score can be seen from the resampling code [^1]
 
 #### 1. Naive Random Oversampling
 |  | Balanced Accuracy Scores |
+| --- | --- |
 | Balanced Accuracy Score | 65%  |
 | Precision | high risk: 1% <br>low risk: 100% | 
 | Recall | high risk: 62%  <br>low risk: 68% | 
