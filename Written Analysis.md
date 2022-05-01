@@ -12,13 +12,25 @@ This project analyzes the reveiws on furniture products provided by Amazon Vine
 
 ## Results
 
+Results for each specific score can be seen from the resampling code [^1]
+
+[^1]: `https://github.com/RababHanda/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb`
+
+<p align="center">
+<img src="/Resources/naive.png" width="60%" height="30%">
+</p>
+
 #### 1. Naive Random Oversampling
-|  | Balanced Accuracy Scores | Implication |
-| Balanced Accuracy Score | 64.97% | The precision for high risk loans is low.  |
-| Precision | sadasda | 
-| Recall | dadsa | 
+|  | Balanced Accuracy Scores |
+| Balanced Accuracy Score | 65%  |
+| Precision | high risk: 1% <br>low risk: 100% | 
+| Recall | high risk: 62%  <br>low risk: 68% | 
 
 #### 2. SMOTE Oversampling
+|  | Balanced Accuracy Scores |
+| Balanced Accuracy Score | 65%  |
+| Precision | high risk: 1% <br>low risk: 100% | 
+| Recall | high risk: 62%  <br>low risk: 68% | 
 
 #### 3. Undersampling
 
