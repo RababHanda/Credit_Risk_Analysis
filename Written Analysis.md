@@ -12,10 +12,6 @@ This project analyzes the reveiws on furniture products provided by Amazon Vine
 
 ## Results
 
-Results for each specific score can be seen from the resampling code [^1]
-
-[^1]: `https://github.com/RababHanda/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb`
-
 
 #### 1. Naive Random Oversampling
 
@@ -103,3 +99,9 @@ Results for each specific score can be seen from the resampling code [^1]
 | Combination Under-Over Sampling | The precision for high-risk loan applications is extremely low <br> The accuracy good for high risk loans (70%) and average for low risk loans (57%) |
 | Balanced Random Forest Classifier | The precision for high-risk loan applications is low (9%) <br> The accuracy very high for both, high & low risk, loan applications, averaging to 94% |
 | Easy Ensemble Classifier | The precision for high-risk loan applications is low (9%) <br> The accuracy very high for both, high & low risk, loan applications, averaging to 94% |
+
+1. As seen in the section above, Easy Ensemble Classifier has the highest accuracy score - at 93%, among the 6 different sampling models. The acuracy score stand-alone is also very high in terms of acceptability (over 80%).
+2. Easy Ensemble Classifier and Balanced Randon Forest Classifier both have the higher precision rate for high-risk applications (even though it is low in terms of stand alone percentages, it is comparably higher among the sox models)
+3. Easy Ensemble Classifier and Balanced Randon Forest Classifier both have recall scores in low 90s, however high risk application have higher recall score in Easy Ensemble Classifier (94%). 
+
+**Final Conclusion**: Looking at all 3 critereon, ***Easy Ensemble Classifier*** model provides the highest level level of accuracy overall and for high risk loans. It also provides higher precision rate among all models for high risk applications
