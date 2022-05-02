@@ -93,7 +93,7 @@ Results for each specific score can be seen from the resampling code [^1]
 
 | **Model** | **Conclusion** |
 | --- | --- |
-| Naive Random Oversampling | | 
+| Naive Random Oversampling | *The precision for high-risk loan application is extremely low (at 1%)<br> *The accuracy is at par for both high and low risk loans, averaging to 66% | 
 | SMOTE Oversampling | | 
 | Undersampling | | 
 | Combination Under-Over Sampling | |
